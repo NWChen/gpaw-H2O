@@ -1,4 +1,4 @@
-Simulation of a single H_2O molecule in a unit cell vacuum, using
+Simulation of a single H<sub>2</sub>O molecule in a unit cell vacuum, using
 - PBE functional,
 - plane-wave basis method
 
