@@ -7,6 +7,7 @@ from ase.units import fs
 from gpaw import GPAW, PW
 
 # Set up the initial structure of a water molecule
+# shape (n, 3): [(x1,y1,z1), (x2,y2,z2), …]
 water = Atoms('H2O', positions=[(0, 0, 0), (1, 0, 0), (0, 1, 0)])
 
 # Define a unit cell with enough vacuum around the water molecule
