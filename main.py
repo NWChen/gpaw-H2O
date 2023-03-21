@@ -19,7 +19,6 @@ water.center()
 # kpts: a 1x1x1 grid of k-points (to represent electron wavefunctions in k-space)
 # txt: output file for calc data
 calc = GPAW(mode=PW(300), xc='PBE', kpts=(1, 1, 1), txt='gpaw_water_md.txt', symmetry='off')
-#calc = GPAW(mode=PW(300), xc='PBE', kpts=(1, 1, 1), txt='gpaw_water_md.txt')
 water.set_calculator(calc)
 
 # Set initial momenta corresponding to T=300K
